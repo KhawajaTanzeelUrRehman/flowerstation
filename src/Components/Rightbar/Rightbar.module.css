@@ -1,0 +1,60 @@
+.heading{
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 400;
+    font-size: 42PX;
+    color: #353535;
+    text-align: end;
+    border-bottom: 2px solid black;
+    width: 95%;
+    max-width: 362px;
+    float: right;
+}
+.heading1{
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 400;
+    font-size: 42PX;
+    color: #2D2D2D;
+    text-align: end;
+    max-width: 362px;
+    border-bottom: 2px solid black;
+    width: 95%;
+    float: right;
+}
+.desc{
+    margin-top: 22px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 16px;
+    color: #353535;
+    text-align: end;
+    max-width: 362px;
+    float: right;
+    margin-bottom: 39px;
+    width: 95%;
+}
+/* media query for less then 780px screen */
+@media screen and (max-width: 780px) {
+    .container{
+        margin: auto !important;
+        max-width: 90%;
+    }
+    .heading1{
+        font-size: 36px;
+        max-width: 100%;
+        width: 100%;
+        float: none;
+    }
+    .heading{
+        max-width: 100%;
+        width: 100%;
+        float: none;
+
+    }
+    .desc{
+        max-width: 100%;
+        width: 100%;
+        float: none;
+    }
+
+
+}

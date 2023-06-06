@@ -1,0 +1,25 @@
+.heading{
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 400;
+    font-size: 42PX;
+    color: #353535;
+}
+.readall{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #353535;
+    margin-top: 20px;
+}
+.arrow{
+    position: relative;
+    margin-top: -21px;
+}
+/* media query for less then 780px screen */
+@media screen and (max-width: 780px) {
+    .container{
+        max-width: 90%;
+        margin: auto !important;
+    }
+
+}
